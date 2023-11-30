@@ -1,10 +1,41 @@
 nav{
-    background-color: black;
+    background-color: #684810;
     color: bisque;
     display: flex;
+    align-items: center;
 }
 
-nav li{
-    display: inline-block;
-    margin: 0 50px;
+#navContainer{
+    margin: 10px 15px;
+    transition: transform .2s;
 }
+
+#navContainer:hover {
+    transform: scale(1.5); 
+  }
+
+nav h1{
+    margin: 50px 5px;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+nav li{
+    display: inline-block;    /* show in one line */
+    margin: 0px 25px;
+}
+
+li a{
+    text-decoration: none;
+    color: darkgray;
+    font-size: 20px;  
+}
+
+
+
+#bodyImg{
+    overflow: hidden;
+}
+
