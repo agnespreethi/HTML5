@@ -1,4 +1,10 @@
-.navbar{
-    display: block;
-    color: red;
+nav{
+    background-color: black;
+    color: bisque;
+    display: flex;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 50px;
 }
